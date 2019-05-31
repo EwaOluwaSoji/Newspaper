@@ -1,0 +1,57 @@
+body{
+  background: #edd2aa;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+#secondBox, #thridBox{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+#secondone, #secondtwo, #secondthree{
+  width: 33%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right, pre{
+  text-align: right;
+}
+.b-r{
+  border-right: 1px solid black !important;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+hr{
+  width: 20%;
+  border-color: black;
+}
+
+img{
+  margin-top: 50px;
+  border: 2px solid black;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.thridbox2{
+  display: flex;
+  flex-direction: column;
+}
+
+.thridbox2-body{
+  display: flex;
+}
